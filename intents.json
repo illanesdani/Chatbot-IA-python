@@ -1,0 +1,45 @@
+{"intents" : [
+    
+    {
+        "tag":"saludo",
+        "patterns": ["hola" , "como estas", "que tal", "buenas", "saludos", "buen dia", ""],
+        "responses": ["Hola, que tal", "Buen dia", "Saludos!", "Como estas?", "Buenos días!", "Holaa"]
+    },
+    {
+        "tag":"nombre",
+    "patterns": ["como te llamas" , "cual es tu nombre", "nombre", "buenas", "como es tu nombre"],
+    "responses": ["Me llamo Dani", "Mi nombre es Dani", "Soy Dani"]
+    },
+    {
+        "tag": "despedida",
+        "patterns": ["adios", "hasta luego", "nos vemos", "chao", "bye"],
+        "responses": ["¡Hasta luego!", "¡Adiós!", "Nos vemos pronto", "Chao"]
+    },
+    {
+        "tag": "agradecimiento",
+        "patterns": ["gracias", "muchas gracias", "te agradezco", "agradecido"],
+        "responses": ["¡De nada!", "No hay de qué", "¡Con gusto!", "Estoy aquí para ayudar"]
+    },
+    {
+        "tag": "tiempo",
+        "patterns": ["¿Qué tiempo hace?", "¿Cómo está el clima?", "¿Va a llover hoy?", "¿Cuál es la temperatura actual?"],
+        "responses": ["El clima está soleado", "Hoy habrá lluvias", "La temperatura actual es de XX grados"]
+    },
+    {
+        "tag": "intereses",
+        "patterns": ["¿Qué te gusta hacer?", "¿Cuáles son tus hobbies?", "¿Tienes algún pasatiempo?"],
+        "responses": ["Me gusta conversar contigo", "Disfruto aprendiendo cosas nuevas", "Me encanta ayudar a las personas"]
+    },
+    {
+        "tag": "ayuda",
+        "patterns": ["¿Puedes ayudarme?", "¿Cómo puedo resolver este problema?", "Necesito ayuda"],
+        "responses": ["Claro, estoy aquí para ayudarte", "¿En qué puedo asistirte?", "¡Listo para ayudar!"]
+    }
+    
+    
+    
+    
+    
+]
+
+}
